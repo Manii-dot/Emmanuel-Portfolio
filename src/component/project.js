@@ -9,31 +9,187 @@ class Project extends Component {
     toggleCategories() {
         if (this.state.activeTab === 0) {
             return (
+                <div className="projects-grid">
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: 'white', height: '280px', background:'url(https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png) center / cover'}} >Server Side API JS</CardTitle>
                     <CardText>
                         COVID-Road-Trip
                     </CardText>
                     <CardActions border>
-                        <Button colored>GitHub Link</Button>
-                        <Button colored>Demo Link</Button>
+                        <Button colored ><a href="https://github.com/christinakerr/COVIDRoadTrip">GitHub Link</a></Button>
+                        <Button colored><a href="https://christinakerr.github.io/COVIDRoadTrip/">Demo Link</a></Button>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share" />
                     </CardMenu>
                 </Card>
+
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: 'white', height: '280px', background:'url(https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png) center / cover'}} >Server Side API JS</CardTitle>
+                    <CardText>
+                        COVID-Road-Trip
+                    </CardText>
+                    <CardActions border>
+                        <Button colored ><a href="https://github.com/christinakerr/COVIDRoadTrip">GitHub Link</a></Button>
+                        <Button colored><a href="https://christinakerr.github.io/COVIDRoadTrip/">Demo Link</a></Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
+
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: 'white', height: '280px', background:'url(https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png) center / cover'}} >Server Side API JS</CardTitle>
+                    <CardText>
+                        COVID-Road-Trip
+                    </CardText>
+                    <CardActions border>
+                        <Button colored ><a href="https://github.com/christinakerr/COVIDRoadTrip">GitHub Link</a></Button>
+                        <Button colored><a href="https://christinakerr.github.io/COVIDRoadTrip/">Demo Link</a></Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
+            </div>
             )
         } else if (this.state.activeTab === 1) {
             return (
-                <div><h1>This is Angular</h1></div>
+                <div className="projects-grid">
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: 'white', height: '280px', background:'url(https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png) center / cover'}} >Server Side API JS</CardTitle>
+                    <CardText>
+                        COVID-Road-Trip
+                    </CardText>
+                    <CardActions border>
+                        <Button colored ><a href="https://github.com/christinakerr/COVIDRoadTrip">GitHub Link</a></Button>
+                        <Button colored><a href="https://christinakerr.github.io/COVIDRoadTrip/">Demo Link</a></Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
+
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: 'white', height: '280px', background:'url(https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png) center / cover'}} >Server Side API JS</CardTitle>
+                    <CardText>
+                        COVID-Road-Trip
+                    </CardText>
+                    <CardActions border>
+                        <Button colored ><a href="https://github.com/christinakerr/COVIDRoadTrip">GitHub Link</a></Button>
+                        <Button colored><a href="https://christinakerr.github.io/COVIDRoadTrip/">Demo Link</a></Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
+
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: 'white', height: '280px', background:'url(https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png) center / cover'}} >Server Side API JS</CardTitle>
+                    <CardText>
+                        COVID-Road-Trip
+                    </CardText>
+                    <CardActions border>
+                        <Button colored ><a href="https://github.com/christinakerr/COVIDRoadTrip">GitHub Link</a></Button>
+                        <Button colored><a href="https://christinakerr.github.io/COVIDRoadTrip/">Demo Link</a></Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
+               </div>
             )
         } else if (this.state.activeTab === 2) {
             return (
-                <div><h1>This is VueJS</h1></div>
+                <div className="projects-grid">
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: 'white', height: '280px', background:'url(https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png) center / cover'}} >Server Side API JS</CardTitle>
+                    <CardText>
+                        COVID-Road-Trip
+                    </CardText>
+                    <CardActions border>
+                        <Button colored ><a href="https://github.com/christinakerr/COVIDRoadTrip">GitHub Link</a></Button>
+                        <Button colored><a href="https://christinakerr.github.io/COVIDRoadTrip/">Demo Link</a></Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
+
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: 'white', height: '280px', background:'url(https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png) center / cover'}} >Server Side API JS</CardTitle>
+                    <CardText>
+                        COVID-Road-Trip
+                    </CardText>
+                    <CardActions border>
+                        <Button colored ><a href="https://github.com/christinakerr/COVIDRoadTrip">GitHub Link</a></Button>
+                        <Button colored><a href="https://christinakerr.github.io/COVIDRoadTrip/">Demo Link</a></Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
+
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: 'white', height: '280px', background:'url(https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png) center / cover'}} >Server Side API JS</CardTitle>
+                    <CardText>
+                        COVID-Road-Trip
+                    </CardText>
+                    <CardActions border>
+                        <Button colored ><a href="https://github.com/christinakerr/COVIDRoadTrip">GitHub Link</a></Button>
+                        <Button colored><a href="https://christinakerr.github.io/COVIDRoadTrip/">Demo Link</a></Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
+               </div>
             )
         } else if (this.state.activeTab === 3) {
             return (
-                <div><h1>This is MongoDB</h1></div>
+                <div className="projects-grid">
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: 'white', height: '280px', background:'url(https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png) center / cover'}} >Server Side API JS</CardTitle>
+                    <CardText>
+                        COVID-Road-Trip
+                    </CardText>
+                    <CardActions border>
+                        <Button colored ><a href="https://github.com/christinakerr/COVIDRoadTrip">GitHub Link</a></Button>
+                        <Button colored><a href="https://christinakerr.github.io/COVIDRoadTrip/">Demo Link</a></Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
+
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: 'white', height: '280px', background:'url(https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png) center / cover'}} >Server Side API JS</CardTitle>
+                    <CardText>
+                        COVID-Road-Trip
+                    </CardText>
+                    <CardActions border>
+                        <Button colored ><a href="https://github.com/christinakerr/COVIDRoadTrip">GitHub Link</a></Button>
+                        <Button colored><a href="https://christinakerr.github.io/COVIDRoadTrip/">Demo Link</a></Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
+
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: 'white', height: '280px', background:'url(https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png) center / cover'}} >Server Side API JS</CardTitle>
+                    <CardText>
+                        COVID-Road-Trip
+                    </CardText>
+                    <CardActions border>
+                        <Button colored ><a href="https://github.com/christinakerr/COVIDRoadTrip">GitHub Link</a></Button>
+                        <Button colored><a href="https://christinakerr.github.io/COVIDRoadTrip/">Demo Link</a></Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
+               </div>
             )
         }
     }
@@ -48,14 +204,11 @@ class Project extends Component {
                     <Tab>VueJS</Tab>
                     <Tab>MongoDB</Tab>
                 </Tabs>
-                <section className="projects-grid">
-                    <Grid className="projects-grid">
+                    <Grid>
                         <Cell col={12}>
                             <div className="content">{this.toggleCategories()}</div>
                         </Cell>
                     </Grid>
-                    
-                </section>
             </div>
         )
     }
