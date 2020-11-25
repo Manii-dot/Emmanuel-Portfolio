@@ -1,35 +1,36 @@
 import React, { Component } from "react";
-import { Tabs, Tab, Grid, Cell  } from "react-mdl";
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton } from "react-mdl";
 
 class Project extends Component {
     constructor(props) {
         super(props);
         this.state = { activeTab: 0 };
     }
-
     toggleCategories() {
-
-        if (this.state.activetab === 0) {
+        if (this.state.activeTab === 0) {
             return (
-                <div><h1>This is React</h1></div>
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    
+                </Card>
             )
-        } else if (this.state.activetab === 1) {
+        } else if (this.state.activeTab === 1) {
             return (
                 <div><h1>This is Angular</h1></div>
             )
-        } else if (this.state.activetab === 2) {
+        } else if (this.state.activeTab === 2) {
             return (
-                <div><h1>This is VueJs</h1></div>
+                <div><h1>This is VueJS</h1></div>
             )
-        } else if (this.state.activetab === 3) {
+        } else if (this.state.activeTab === 3) {
             return (
                 <div><h1>This is MongoDB</h1></div>
             )
         }
     }
 
+
     render() {
-        return(
+        return (
             <div classname="category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
                     <Tab>React</Tab>
@@ -37,9 +38,13 @@ class Project extends Component {
                     <Tab>VueJS</Tab>
                     <Tab>MongoDB</Tab>
                 </Tabs>
-
-                <section className="project-grid">
-                    {this.toggle}
+                <section className="projects-grid">
+                    <Grid className="projects-grid">
+                        <Cell col={12}>
+                            <div className="content">{this.toggleCategories()}</div>
+                        </Cell>
+                    </Grid>
+                    
                 </section>
             </div>
         )
