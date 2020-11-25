@@ -24,8 +24,8 @@ class Landing extends Component {
                     <p>HTML/CSS | Bootstrap | JavaScript | React | Redux |NodeJS | Express | MongoDB</p>
 
                     <div className="social-links">
-                        <a href="http">
-                            <i className="fa"
+                        <a href="https://www.linkedin.com/in/emmanuel-stephen-702893178/" rel="noopener noreferrer" >
+                            <i className="fa fa-linkedin-square"  aria-hidden="true" />
                         </a>
                     </div>
                 </div>
