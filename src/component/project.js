@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton } from "react-mdl";
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton, CardText } from "react-mdl";
 
 class Project extends Component {
     constructor(props) {
@@ -10,7 +10,17 @@ class Project extends Component {
         if (this.state.activeTab === 0) {
             return (
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    
+                    <CardTitle style={{color: 'white', height: '280px', background:'url(https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png) center / cover'}} >Server Side API JS</CardTitle>
+                    <CardText>
+                        COVID-Road-Trip
+                    </CardText>
+                    <CardActions border>
+                        <Button colored>GitHub Link</Button>
+                        <Button colored>Demo Link</Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
                 </Card>
             )
         } else if (this.state.activeTab === 1) {
@@ -33,7 +43,7 @@ class Project extends Component {
         return (
             <div classname="category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-                    <Tab>React</Tab>
+                    <Tab>Server Side API JS</Tab>
                     <Tab>Angular</Tab>
                     <Tab>VueJS</Tab>
                     <Tab>MongoDB</Tab>
