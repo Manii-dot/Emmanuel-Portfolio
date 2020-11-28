@@ -27,12 +27,6 @@
   border-radius: 30px 60px 60px 10px;
 }
 
-.avatar-img2 {
-  height: 250px;
-  /* padding-top: 5em; */
-  border-radius: 30px 60px 60px 10px;
-}
-
 .contact-body {
   margin: auto;
   background:rgb(182, 195, 199);
@@ -52,6 +46,37 @@
   color: black;
   border: 2px solid orange;
   margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: "Anton", sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Arvo', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.info {
+  font-size: 18px;
+  font-family: Anton;
+}
+
+.contact-list i {
+  font-size: 25px;
+  padding-right: 5rem;
+}
+
+.avatar-img2 {
+  height: 250px;
+  /* padding-top: 5em; */
+  border-radius: 30px 60px 60px 10px;
 }
 
 .banner-text {
