@@ -6,7 +6,12 @@ class Contact extends Component {
         return(
             <div className="contact-body">
                 <Grid className="contact-grid">
-                    <Cell col={6}>OK</Cell>
+                    <Cell col={6}>
+                        <h2> Emmanuel Stephen</h2>
+                        <img src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+                        alt="avatar"
+                        style={{height: '250px'}} />
+                    </Cell>
                     <Cell col={6}>OK</Cell>
                 </Grid>
             </div>

@@ -42,7 +42,10 @@
   justify-content: center;
   width: 80%;
   height: 550px;
-  background: ;
+  background: white;
+  color: black;
+  border: 2px solid orange;
+  margin-bottom: 20px;
 }
 
 .banner-text {
