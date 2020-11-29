@@ -46,7 +46,7 @@ class Resume extends Component {
                         schoolDescription="Will add the text for later. For now. Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs."
                         />
 
-<Education 
+                        <Education 
                         startYear={2006}
                         endYear={2007}
                         schoolName="Full Sail University"
@@ -56,6 +56,22 @@ class Resume extends Component {
 
                         <h2>Experience</h2>
 
+                        <Experience
+                        startYear={2010}
+                        endYear={2019}
+                        jobName="US Army"
+                        jobDescription="Will add the text for later. For now. Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs."
+                        />
+
+                        <Experience
+                        startYear={2008}
+                        endYear={2010}
+                        jobName="Palm Beach Show Town Hall"
+                        jobDescription="Will add the text for later. For now. Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs."
+                        />
+                        <hr style={{borderTop: '3px solid white'}} />
+                        
+                        
                     </Cell>
                 </Grid>           
             </div>
