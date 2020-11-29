@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { Grid, Cell } from 'react-mdl';
 import Image from './me2.png';
-import Education from './education'
+import Education from './education';
+import Experience from './experience';
 
 class Resume extends Component {
     render() {
