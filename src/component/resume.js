@@ -31,8 +31,30 @@ class Resume extends Component {
                     <Cell className="resume-right-col" col={8}>
                         <h2>Education</h2>
 
-                        <Education />
-                        
+                        <Education 
+                        startYear={2020}
+                        endYear={2020}
+                        schoolName="University of Texas at Austin"
+                        schoolDescription="Will add the text for later. For now. Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs."
+                        />
+
+                        <Education 
+                        startYear={2015}
+                        endYear={2020}
+                        schoolName="American Military University"
+                        schoolDescription="Will add the text for later. For now. Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs."
+                        />
+
+<Education 
+                        startYear={2006}
+                        endYear={2007}
+                        schoolName="Full Sail University"
+                        schoolDescription="Will add the text for later. For now. Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs."
+                        />
+                        <hr style={{borderTop: '3px solid white'}} />
+
+                        <h2>Experience</h2>
+
                     </Cell>
                 </Grid>           
             </div>
