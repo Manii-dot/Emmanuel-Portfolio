@@ -121,7 +121,8 @@
 /* Resume page */
 
 .resume-right-col {
-  background: #325449;
+  background: rgb(72, 71, 71);
   color: azure;
   padding: 2em;
 }
+
