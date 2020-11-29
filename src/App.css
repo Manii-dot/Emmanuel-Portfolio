@@ -118,3 +118,9 @@
   padding: 8px;
 }
 
+/* Resume page */
+
+.resume-right-col {
+  background: #325449;
+  color: azure;
+}
