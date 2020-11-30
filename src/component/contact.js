@@ -14,7 +14,6 @@ class Contact extends Component {
                         // style={{height: '250px'}} 
                         />
                         <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>
-                            Will add the text for later. For now. Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.
                         </p>
                     </Cell>
                     <Cell col={6}>

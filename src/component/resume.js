@@ -22,7 +22,7 @@ class Resume extends Component {
                     <h2 style={{paddingTop: '2em'}}>Emmanuel Stephen</h2>
                     <h4 style={{color: 'grey'}}>Programmer</h4>
                     <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-                    
+                    <p> Some of my interests range from Cloud Computing, Full Stack Web development, Sports/Fitness, Aerospace Science, and Recording Arts. I am currently in training for full-stack-web Developer at the University of Texas Austin until December 8. I am fluent in English, HAitian Creole and French</p>
                     <h5>Phone:</h5>
                     <p>(254)-245-5260</p>
                     <h5>Email:</h5>
